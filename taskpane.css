@@ -1,0 +1,113 @@
+/* 
+ * Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT license.
+ * See LICENSE in the project root for license information.
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap&subset=latin-ext');
+ @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  background-color: rgb(240, 240, 240);
+  margin: 0;
+  padding: 20px 20px;
+}
+
+.header svg {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  
+  font-size: 28px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  padding: 0px 20px 20px;
+}
+
+.main h2 {
+  color: rgb(136, 136, 136);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.main .filters {
+  display: flex;
+  margin: -5px;
+  margin-bottom: 10px;
+}
+
+.main button {
+  padding: 10px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  outline: none;
+}
+
+.main .filters button {
+  flex-grow: 1;
+  margin: 5px;
+  background-color: rgb(33, 115, 70);
+}
+
+.main .filters button:hover {
+  background-color: rgb(8, 90, 45);
+}
+
+.main .filters button:active {
+  background-color: rgb(0, 64, 19);
+}
+
+.main .clear button {
+  width: 100%;
+  background-color: rgb(33, 115, 70);
+}
+
+.main .clear button:hover {
+  background-color: rgb(8, 90, 45);
+}
+
+.main .clear button:active {
+  background-color: rgb(0, 64, 19);
+}
+
+.main .run button {
+  width: 100%;
+  background-color: rgb(0, 120, 212);
+}
+
+.main .run button:hover {
+  background-color: rgb(0, 95, 187);
+}
+
+.main .run button:active {
+  background-color: rgb(0, 44, 136);
+}
+
+.log {
+  padding: 0px 20px 20px;
+  color: grey;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 12px;
+  
+}
+
+.log p {
+  margin: 0;
+  padding: 0;
+}
